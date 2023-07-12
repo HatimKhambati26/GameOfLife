@@ -1,0 +1,6 @@
+cradle:
+  stack:
+    - path: ./test
+      component: "GameOfLife:test:GameOfLife-test"
+    - path: ./src
+      component: "GameOfLife:lib"

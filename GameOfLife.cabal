@@ -1,0 +1,75 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.35.0.
+--
+-- see: https://github.com/sol/hpack
+
+name:           GameOfLife
+version:        0.1.0.0
+description:    Please see the README on GitHub at <https://github.com/hatimkhambati26/GameOfLife#readme>
+homepage:       https://github.com/hatimkhambati26/GameOfLife#readme
+bug-reports:    https://github.com/hatimkhambati26/GameOfLife/issues
+author:         Author name here
+maintainer:     hatim.khambati26@gmail.com
+copyright:      2023 Hatim Khambati
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+    CHANGELOG.md
+
+source-repository head
+  type: git
+  location: https://github.com/hatimkhambati26/GameOfLife
+
+library
+  exposed-modules:
+      GameOfLife
+      InitializeLife
+      Neighbors
+      Rules
+      StartingPatterns
+      Type
+  other-modules:
+      Paths_GameOfLife
+  hs-source-dirs:
+      src
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
+  build-depends:
+      ansi-terminal
+    , base >=4.7 && <5
+    , ilist
+    , random
+  default-language: Haskell2010
+
+executable GameOfLife-exe
+  main-is: Main.hs
+  other-modules:
+      Paths_GameOfLife
+  hs-source-dirs:
+      app
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      GameOfLife
+    , ansi-terminal
+    , base >=4.7 && <5
+    , ilist
+    , random
+  default-language: Haskell2010
+
+test-suite GameOfLife-test
+  type: exitcode-stdio-1.0
+  main-is: Spec.hs
+  other-modules:
+      Paths_GameOfLife
+  hs-source-dirs:
+      test
+  ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints -threaded -rtsopts -with-rtsopts=-N
+  build-depends:
+      GameOfLife
+    , ansi-terminal
+    , base >=4.7 && <5
+    , ilist
+    , random
+  default-language: Haskell2010

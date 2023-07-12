@@ -1,0 +1,26 @@
+/Users/hatimkhambati/.stack/programs/x86_64-osx/ghc-9.2.7/lib/ghc-9.2.7/lib/x86_64-osx-ghc-9.2.7/rts-1.0.2/include/ghcversion.h:
+  hash: 33b3e1b0047b6cca48a29d69ecd33f64042e571e70747f1155f402ea75f33a9f
+/Users/hatimkhambati/Code/GameOfLife/.stack-work/dist/x86_64-osx/Cabal-3.6.3.0/build/autogen/Paths_GameOfLife.hs:
+  hash: 635591371c737806dd9aa59ffcb72678a232796b2106bf12fa6b9a5d7d0b7b5c
+/Users/hatimkhambati/Code/GameOfLife/.stack-work/dist/x86_64-osx/Cabal-3.6.3.0/build/autogen/cabal_macros.h:
+  hash: 5801fb5319137df76a195902879681e485a00a8a4382e2ada876af7faa40e73b
+/Users/hatimkhambati/Code/GameOfLife/CHANGELOG.md:
+  hash: 6b4430ef6e865c7b0f220ca8e9942b0d2251cc72cf1edeb7fc84403c83b7ebd9
+/Users/hatimkhambati/Code/GameOfLife/GameOfLife.cabal:
+  hash: 775a15395657a19b82760dd47bbad34ab9848530ac8963c417267a238e95be98
+/Users/hatimkhambati/Code/GameOfLife/README.md:
+  hash: 2c3b3100d3d70cf6ccb31a2f4f2955adecfca192eecb47dd11440b51ebb18ab2
+/Users/hatimkhambati/Code/GameOfLife/package.yaml:
+  hash: 3b9395d60206e431ec6023c5ab58c8e345239c639713e24f3b7352b4e9f6edee
+/Users/hatimkhambati/Code/GameOfLife/src/GameOfLife.hs:
+  hash: a1e5950aee37040b14a939252b0ca9adfe9d2f0188a2712db6656fb83e552140
+/Users/hatimkhambati/Code/GameOfLife/src/InitializeLife.hs:
+  hash: aecdcc10a0e53acad475d2ea6fbfba3d0e9103598f6d4cc4134acfacc4d16513
+/Users/hatimkhambati/Code/GameOfLife/src/Neighbors.hs:
+  hash: 4e20ef202a06b1fdc706b04e05c929bf9b93a33a1e81455cd952d0c56124f1e8
+/Users/hatimkhambati/Code/GameOfLife/src/Rules.hs:
+  hash: 5fd4b4d59471891347404977f8ea3bba139aa4fffcc2d145536856c30f57022c
+/Users/hatimkhambati/Code/GameOfLife/src/StartingPatterns.hs:
+  hash: 0543f021c68b9f2f7a7210e62a4600c2fb57206771b4dc0ebc073147254ded91
+/Users/hatimkhambati/Code/GameOfLife/src/Type.hs:
+  hash: 4e6fb0816fe770ae3a92427926a117b7a8c95d6c46db8ce7291e29d779c656ca
